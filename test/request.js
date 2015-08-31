@@ -1,6 +1,6 @@
 var fs = require('fs');
-var progress = require('./');
 var request = require('request');
+var progress = require('../');
 
 request('http://cachefly.cachefly.net/10mb.test')
   .pipe(progress(':bar'))
