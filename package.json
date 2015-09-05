@@ -1,10 +1,10 @@
 {
   "name": "stream-progressbar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple progress bar for node stream",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/request.js"
   },
   "repository": {
     "type": "git",

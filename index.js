@@ -8,9 +8,8 @@ module.exports = function(tokens, options) {
   var total = options.total;
 
   pt.on('pipe', function(stream) {
-    var bar = new ProgressBar(tokens, options);
-    
     if(total) {
+      var bar = new ProgressBar(tokens, options);
       pt.on('data', function(chunk) {
         bar.tick(chunk.length);
       });
