@@ -6,16 +6,8 @@
   "scripts": {
     "test": "node test/request.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/esportsguy/stream-progressbar.git"
-  },
   "author": "Wang Zuo",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/esportsguy/stream-progressbar/issues"
-  },
-  "homepage": "https://github.com/esportsguy/stream-progressbar#readme",
   "dependencies": {
     "progress": "^1.1.8"
   },
@@ -27,5 +19,16 @@
     "progress",
     "progressbar",
     "pipe"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangzuo/stream-progressbar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangzuo/stream-progressbar/issues"
+  },
+  "homepage": "https://github.com/wangzuo/stream-progressbar#readme"
 }
