@@ -4,7 +4,7 @@ var ProgressBar = require('progress');
 module.exports = function (tokens, options) {
   options = options || {};
 
-  var pt = new PassThrough();
+  var pt = new PassThrough(options);
   var total = options.total;
 
   pt.on('pipe', function (stream) {

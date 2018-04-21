@@ -4,7 +4,7 @@
   "description": "Simple progress bar for node stream",
   "main": "index.js",
   "scripts": {
-    "test": "node test/request.js"
+    "test": "node test/request.js && node test/fs.js && node test/object.js"
   },
   "author": "Wang Zuo",
   "license": "MIT",
