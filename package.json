@@ -9,10 +9,10 @@
   "author": "Wang Zuo",
   "license": "MIT",
   "dependencies": {
-    "progress": "^1.1.8"
+    "progress": "^2.0.0"
   },
   "devDependencies": {
-    "request": "^2.61.0"
+    "request": "^2.85.0"
   },
   "keywords": [
     "stream",
