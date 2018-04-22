@@ -6,4 +6,4 @@ var stat = fs.statSync(filename);
 
 fs.createReadStream(filename)
   .pipe(progress(':total', {total: stat.size}))
-  .pipe(fs.createWriteStream('10mb.test.copy'));
+  .pipe(fs.createWriteStream('10mb.copy.test'));
