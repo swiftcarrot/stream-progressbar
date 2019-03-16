@@ -1,4 +1,7 @@
 # stream-progressbar
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/wangzuo/stream-progressbar.svg)](https://greenkeeper.io/)
+
 Simple progress bar for node stream with [progress](https://www.npmjs.com/package/progress)
 ``` sh
 npm install stream-progressbar
