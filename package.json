@@ -6,13 +6,12 @@
   "scripts": {
     "test": "node test/request.js && node test/fs.js && node test/object.js"
   },
-  "author": "Wang Zuo",
   "license": "MIT",
   "dependencies": {
-    "progress": "^2.0.0"
+    "progress": "^2.0.3"
   },
   "devDependencies": {
-    "request": "^2.85.0"
+    "request": "^2.88.0"
   },
   "keywords": [
     "stream",
@@ -30,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/wangzuo/stream-progressbar/issues"
   },
-  "homepage": "https://github.com/wangzuo/stream-progressbar#readme"
+  "homepage": "https://github.com/wangzuo/stream-progressbar#readme",
+  "author": "Wang Zuo <wzuoadjusted@gmail.com> (https://wangzuo.me/)"
 }
