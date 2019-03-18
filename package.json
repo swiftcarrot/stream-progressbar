@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "Simple progress bar for node stream",
   "main": "index.js",
+  "files": ["index.js"],
   "scripts": {
     "test": "node test/request.js && node test/fs.js && node test/object.js"
   },
@@ -13,12 +14,7 @@
   "devDependencies": {
     "request": "^2.88.0"
   },
-  "keywords": [
-    "stream",
-    "progress",
-    "progressbar",
-    "pipe"
-  ],
+  "keywords": ["stream", "progress", "progressbar", "pipe"],
   "directories": {
     "test": "test"
   },
