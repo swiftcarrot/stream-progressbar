@@ -3,9 +3,7 @@
   "version": "1.3.0",
   "description": "Simple progress bar for node stream",
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "files": ["index.js"],
   "scripts": {
     "test": "node test/request.js && node test/fs.js && node test/object.js"
   },
@@ -16,22 +14,14 @@
   "devDependencies": {
     "request": "^2.88.0"
   },
-  "keywords": [
-    "stream",
-    "progress",
-    "progressbar",
-    "pipe"
-  ],
-  "directories": {
-    "test": "test"
-  },
+  "keywords": ["stream", "progress", "progressbar", "pipe"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangzuo/stream-progressbar.git"
+    "url": "git+https://github.com/swiftcarrot/stream-progressbar.git"
   },
   "bugs": {
-    "url": "https://github.com/wangzuo/stream-progressbar/issues"
+    "url": "https://github.com/swiftcarrot/stream-progressbar/issues"
   },
-  "homepage": "https://github.com/wangzuo/stream-progressbar#readme",
-  "author": "Wang Zuo <wzuoadjusted@gmail.com> (https://wangzuo.me/)"
+  "homepage": "https://github.com/swiftcarrot/stream-progressbar#readme",
+  "author": "Wang Zuo <wangzuo@swiftcarrot.com> (https://swiftcarrot.com)"
 }
